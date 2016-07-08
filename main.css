@@ -3,6 +3,7 @@ body{
   background-image: url("background1.png");
   background-size: cover;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1vw;
 }
 
 /* Navigation Bar */
@@ -34,30 +35,42 @@ body{
 .homeheader {
   display: flex;
   text-align: center;
-  padding-left: 350px;
-  font-size: 80px;
+  padding-left: 20%;
+  font-size: 8vw;
+}
+
+.futureheader{
+  display: flex;
+  text-align: center;
+  padding-left: 10%;
+  font-size: 6vw;
+  line-height: 6vw;
 }
 
 .contactheader{
   display: flex;
   text-align: center;
-  padding-left: 375px;
-  font-size: 80px;
+  padding-left: 40%;
+  font-size: 3vw;
+  color: white;
 }
 
 /* ABOUT ME */
 h2 {
   padding-bottom: 100px;
   text-align: center;
-  font-size: 30px;
-  line-height:30px;
+  font-size: 3vw;
+  line-height:3vw;
 }
 
 .future{
-  padding-bottom: 100px;
   text-align: center;
-  font-size: 25px;
-  line-height:25px;
+  font-size: 1.5vw;
+  line-height:2vw;
+}
+
+.future:last-child{
+  padding-bottom: 100px;
 }
 
 /* PICTURE */
@@ -81,21 +94,20 @@ h2 {
 
 .aboutme{
   color: white;
-  font-size: 30px;
+  font-size: 2.5vw;
   list-style-type: none;
   text-align:center;
-  line-height:50px;
-  margin-right:50px;
+  line-height:5vw;
+  margin-right:42.5px;
 }
 
 /* CONTACT ME */
 .contact{
-  font-size: 30px;
+  font-size: 2.5vw;
   list-style-type:none;
   text-align:center;
-  line-height:50px;
-  margin-top: 20px;
-  margin-right:50px;
+  line-height:5vw;
+  margin-right:40px;
 }
 
 .contact a{
@@ -115,6 +127,6 @@ h2 {
 .gif {
   border-radius: 50%;
   height: 300px;
-  margin: -160px 0 22px 0;
+  margin: -160px 0 0 0;
   vertical-align: top;
 }
